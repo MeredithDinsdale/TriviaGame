@@ -1,0 +1,93 @@
+body {
+	background-color: rgb(250, 166, 194);
+}
+
+#jumbo1 {
+	max-height: 30%;
+	background-image: url("../images/raccoonBanner.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 200px;
+    width: 100%;
+}
+
+#triviaTitle {
+	margin-left: auto;
+    margin-right: auto;
+    color:#faf7ed;
+    letter-spacing: 8px;
+}
+
+.jumbotron.text-center#startGame {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+#startBtn {
+		padding:12px 40px 12px 40px;
+		font-size: 25px;
+		background-color: #b1d384;
+		border-color: #000;
+		color: #111;
+		letter-spacing: 4px;
+}
+#startBtn:hover {
+		background-color: #50ff6d;
+		color: #def;
+}
+
+#gameArea.jumbotron.text-center {
+    	background-color: rgb(235, 72, 134);
+}
+
+#time {
+		font-size: 25px;
+		color: #def;
+}
+.question {
+		color:#a1eb2b;
+		font-size: 18px;
+}
+
+.thisChoice {
+		font-size: 16px;
+		color: #def;
+		line-height: 50px;
+}
+.thisChoice:hover {
+		color:rgb(253, 144, 220);
+}
+#Answer.container {
+		font-family: 'Source Code Pro', monospace;
+}
+#text, #correctAnswer {
+		color: #9ef7a5;
+		font-size: 18px;
+}
+
+.container#Results {
+	color: lightblue;
+	font-size: 20px;
+}
+#resultText {
+	color: #eb8b2b;
+}
+#startOverBtn {
+	padding:12px 40px 12px 40px;
+	font-size: 18px;
+	background-color: #ace293;
+	border-color: #000;
+	color: #def;
+	letter-spacing: 4px;
+}
+#startOverBtn:hover {
+	background-color: #75e25f;
+	color: #111;
+	cursor: pointer;
+}
+
+
+
+
+  

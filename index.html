@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Trivia</title>
+</head>
+<body>
+<!--Banner Image-->
+	<div class="jumbotron col-md-12" id="jumbo1"></div>
+
+<!--The Main Content-->
+	<div class="container col-md-12">
+		<div class="row text-center">
+			<h1 id="triviaTitle">Raccoon Trivia</h1>
+		</div>
+
+		<div class="jumbotron text-center" id="startGame">
+			<button id="startBtn">Dive in</button>
+		</div>
+
+		<div class="jumbotron text-center" id="gameArea">
+			<div class="container" id="Questions">
+				<div id="time"></div>
+				<div class="question"></div><br>
+				<div class="choices"></div>
+			</div>
+
+			<div class="container" id="Answer">
+				<div id="text"></div>
+				<div id="correctAnswer"></div>
+				<div id="image"></div><br>
+				<div id="imageText"></div>
+			</div>
+
+			<div class="container" id="Results">
+				<div id="resultText"></div>
+				<div id="correctAnswers"></div>
+				<div id="wrongAnswers"></div>
+				<div id="unanswered"></div><br>
+				<button id="startOverBtn"></button>
+			</div>
+		</div>
+	</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- function countDownSho() {
+	seconds --;
+	if(seconds < 10) {
+		$("#time").html("00:0" + seconds);
+		$("#time").css({"color": "red"});
+	} else {
+		$("#time").html("00:" + seconds);
+		$("#time").css({"color": "#def"});
+	}
+
+	if (seconds < 1) {
+		clearInterval(time);
+		answered = false;
+		shoAnswer();
+	}
+} -->
